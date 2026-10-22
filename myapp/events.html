@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Events</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fb;
+        }
+
+        header {
+            background: #172554;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .title {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .title h1 {
+            color: #172554;
+            font-size: 38px;
+        }
+
+        .events {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+            padding: 20px 8% 60px;
+        }
+
+        .event {
+            background: white;
+            width: 320px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,.12);
+        }
+
+        .event img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .event-content {
+            padding: 20px;
+        }
+
+        .event h2 {
+            color: #2563eb;
+            margin-bottom: 10px;
+        }
+
+        .date {
+            font-weight: bold;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .register {
+            display: inline-block;
+            background: #2563eb;
+            color: white;
+            padding: 10px 18px;
+            margin-top: 15px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            background: #172554;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>🎓 College Events</h2>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<div class="title">
+    <h1>Upcoming Events</h1>
+    <p>Explore and participate in our exciting college events.</p>
+</div>
+
+<section class="events">
+
+    <div class="event">
+        <img src="images/event1.jpg" alt="Cultural Event">
+
+        <div class="event-content">
+            <h2>Cultural Fest</h2>
+            <p class="date">📅 20 September 2026</p>
+            <p>Music, dance, drama and cultural performances by students.</p>
+            <a href="contact.html" class="register">Register Now</a>
+        </div>
+    </div>
+
+    <div class="event">
+        <img src="images/event2.jpg" alt="Sports Event">
+
+        <div class="event-content">
+            <h2>Annual Sports</h2>
+            <p class="date">📅 25 September 2026</p>
+            <p>Exciting sports competitions and activities for students.</p>
+            <a href="contact.html" class="register">Register Now</a>
+        </div>
+    </div>
+
+    <div class="event">
+        <img src="images/event3.jpg" alt="Technical Event">
+
+        <div class="event-content">
+            <h2>Tech Fest</h2>
+            <p class="date">📅 05 October 2026</p>
+            <p>Technical competitions, workshops and innovative projects.</p>
+            <a href="contact.html" class="register">Register Now</a>
+        </div>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 College Events Management</p>
+</footer>
+
+</body>
+</html>
